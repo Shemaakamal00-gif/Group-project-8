@@ -1,4 +1,5 @@
 Verksamhetsbeskrivning
+
 Vår verksamhet är en italiensk restaurang med fokus på kvalitet, hantverk och helhetsupplevelse. Vi erbjuder klassiska italienska rätter såsom pasta och pizza, där allt tillagas från grunden i restaurangen med noggrant utvalda råvaror. Inga halvfabrikat används, varje rätt är framtagen med stor omsorg kring smak, presentation och kvalitet.
 
 Restaurangen riktar sig till gäster som uppskattar en lite finare, avslappnad matupplevelse, där både mat, vin och inredning är genomtänkta in i minsta detalj. Vår ambition är att skapa en miljö där gäster kan ta god tid på sig och njuta, utan stress eller tidspress.
@@ -6,6 +7,8 @@ Restaurangen riktar sig till gäster som uppskattar en lite finare, avslappnad m
 För att förbättra gästupplevelsen och samtidigt effektivisera verksamheten erbjuder vi digital beställning och betalning via hemsidan. Detta gör att gästerna själva kan välja när och hur de vill beställa, exempelvis sitta och njuta av ett glas vin innan maten beställs, utan att känna press från serveringspersonal. Lösningen bidrar även till lägre personalkostnader, vilket gör det möjligt för oss att istället lägga större fokus och budget på råvaror av hög kvalitet.
 
 Utöver restaurangbesök erbjuder vi även avhämtning, vilket gör det möjligt för gäster att ta del av vår matupplevelse även i hemmet, utan att kompromissa med kvalitet eller helhetskänsla.
+
+
 Grafisk profil
 
 Den grafiska profilen är framtagen på ett sätt för att framhäva känslan som vi som restaurangägare vill förmedla. Vår förhoppning är att konsumenten får en känsla av elegans och en tydlig upplevelse av harmoni i samband med att man besöker vår webbplats. Därav använder vi oss av tydliga typografi, dämpade färger, god kontrast och enkel layout för att användaren snabbt förstår hur man beställer och betalar via hemsidan utan någon som helst förvirring eller osäkerhet.
