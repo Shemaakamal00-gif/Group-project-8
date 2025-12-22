@@ -170,3 +170,8 @@
     padding:0%
   }
 }
+
+.hero-img img {
+  position: center;
+  border: solid black;
+}
