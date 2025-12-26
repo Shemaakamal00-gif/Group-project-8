@@ -171,7 +171,21 @@
   }
 }
 
-.hero-img img {
-  position: center;
-  border: solid black;
+#hero {
+  height: 70vh; 
+  background-image: url("../imgs/heroimg.png");
+  background-size: cover;
+  background-position: center;
+  
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem;
 }
+
+#hero h1 {
+  color: #E65306;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  max-width: 500px;
+}
+
