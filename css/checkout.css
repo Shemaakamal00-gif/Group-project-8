@@ -1,3 +1,16 @@
+body {
+  font-family: stolzl, sans-serif;
+  font-weight: 400;
+}
+h1, h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h3, h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
 .checkout {
   padding: 1rem;
 }
@@ -16,8 +29,7 @@
   display: flex;
   gap: 1rem;
   align-items: center;
-  padding: 5px 0;
-  /* justify-content: flex-start; fungerar inte  */
+  padding-bottom: 5px;
 }
 
 .product img {
@@ -30,7 +42,6 @@
   flex: 1;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .product-actions {
