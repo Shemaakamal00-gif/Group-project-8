@@ -194,3 +194,25 @@ text-align: center;
 color: #00333B;
 padding: 3rem 2rem;
 }
+
+.imgwithtext {
+display: flex;
+align-items: center;
+gap: 3rem;
+padding: 5rem 2rem;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.imgwithtext img {
+width: 50%;
+border-radius: 8px;
+}
+
+.imgwithtext .text {
+width: 50%;
+}
+
+.imgwithtext1 {
+flex-direction: row-reverse;
+}
