@@ -21,10 +21,6 @@
   justify-content: space-between;
 }
 
-.logo {
-  font-weight: 600;
-  font-size: 20px;
-}
 
 .nav-links {
   display: flex;
@@ -137,16 +133,16 @@
   .nav-links {
     display: none;
   }
-
+  
   .hamburger {
     display: flex;
   }
-
+  
   .nav-actions {
     display: none;
   }
-
-
+  
+  
   .nav-links {
     position: absolute;
     top: 80px;
@@ -159,14 +155,122 @@
     display: none;
     border-top: 1px solid #e0e0e0;
   }
-
+  
   /* När checkbox är ikryssad → visa meny */
   #menu-toggle:checked ~ .nav-links {
     display: flex;
   }
-
+  
   .footer-container {
     grid-template-columns: repeat(3, 1fr);
     padding:0%
   }
+}
+
+.logo-img {
+  height: 50px;
+  border-radius: 25px;
+}
+#main-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  color: #333;
+  font-family: playfair display, serif;
+}
+
+
+.homepage-info {
+  max-width: 1100px; 
+  margin: 0 auto;  
+  padding: 60px 20px;  
+  display:flex;     
+  gap: 40px;  
+}
+
+.homepage-img {  
+  flex: 1;  
+  height: 360px;  
+  border-radius: 6px;  
+  overflow: hidden; 
+}
+
+.homepage-img img {
+  width: 100%;
+  height: 100%;   
+  object-fit: cover; 
+}
+
+.homepage-text {
+  flex: 1;  
+  font-family: stolzel, serif;
+}
+
+.homepage-text p {
+  margin-top: 30px; 
+}
+.quick-links {
+  max-width: 1100px; 
+  margin: 0 auto; 
+  display: flex; 
+  gap: 20px; 
+  justify-content: space-between;
+}
+
+.quick-cards {
+  flex: 1;
+  padding: 20px;
+  color: black;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.img-links {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.img-cards {
+  flex: 1 1 calc(50% - 20px);
+  height: 260px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: beige;
+}
+
+.img-cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.img-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.img-overlay h3 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.img-cards:hover .img-overlay {
+  background: rgba(0, 0, 0, 0.6);
 }
