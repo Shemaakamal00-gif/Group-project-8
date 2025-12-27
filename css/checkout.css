@@ -16,6 +16,8 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  padding: 5px 0;
+  /* justify-content: flex-start; fungerar inte  */
 }
 
 .product img {
@@ -46,4 +48,12 @@ textarea {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.summary-text {
+  padding: 10px 0;
+}
+
+#payment-title {
+  padding-bottom: 10px;
 }
