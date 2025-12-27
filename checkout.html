@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/checkout.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
  
@@ -43,7 +46,7 @@
           <section class="product">
             <section class="product-img"></section>
             <section class="product-info"></section>
-            <span>Pizza Margherita</span>
+            <span class="product-text">Pizza Margherita</span>
             <section class="product-actions">
               <button>-</button>
               <span>1</span>
@@ -54,7 +57,7 @@
           <section class="product">
             <section class="product-img"></section>
             <section class="product-info"></section>
-            <span>Pasta Carbonara</span>
+            <span class="product-text">Pasta Carbonara</span>
             <section class="product-actions">
               <button>-</button>
               <span>1</span>
@@ -67,7 +70,7 @@
 
         <!-- Allergier eller speciella önskemål -->
         <section class="allergies">
-          <label>Speciella önskemål / Allergier:</label>
+          <label id="label-text">Speciella önskemål / Allergier:</label>
           <textarea></textarea>
         </section>
 
@@ -76,15 +79,15 @@
           <h3>Beställningsöversikt</h3>
           <p class="summary-text">Pizza Margherita 149 kr</p>
           <p class="summary-text">Pasta Carbonara 159 kr</p>
-          <strong>Totalt 308 kr</strong>
+          <h4>Totalt 308 kr</h4>
         </section>
 
         <!-- Betalningsmetod -->
         <section class="payment">
           <h3 id="payment-title">Betalningsmetod</h3>
           <div class="payment-buttons">
-            <button>Fortsätt till Swish</button>
-            <button>Fortsätt till kortbetalning</button>
+            <button class="payment-button">Fortsätt till Swish</button>
+            <button class="payment-button">Fortsätt till kortbetalning</button>
           </div>
         </section>
 
