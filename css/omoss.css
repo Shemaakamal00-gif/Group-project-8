@@ -199,9 +199,10 @@ padding: 3rem 2rem;
 display: flex;
 align-items: center;
 gap: 3rem;
-padding: 5rem 2rem;
+padding: 2rem 2rem;
 max-width: 1200px;
 margin: 0 auto;
+color: #00333B;
 }
 
 .imgwithtext img {
@@ -211,8 +212,15 @@ border-radius: 8px;
 
 .imgwithtext .text {
 width: 50%;
+color: #00333B;
 }
 
-.imgwithtext1 {
+.imgwithtext.reverse {
 flex-direction: row-reverse;
+}
+
+.lasttextbeforefooter h2 {
+text-align: center;
+margin: 2rem;
+color: #00333B;
 }
