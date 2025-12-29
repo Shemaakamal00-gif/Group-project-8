@@ -1,3 +1,16 @@
+body {
+  font-family: stolzl, sans-serif;
+  font-weight: 400;
+}
+h1, h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h3, h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
 .checkout {
   padding: 1rem;
 }
@@ -8,15 +21,19 @@
   gap: 2rem;
 }
 
+.checkout-side {
+  display: none;
+}
+
 .product {
   display: flex;
-  gap: 1rem;
   align-items: center;
+  padding-bottom: 5px;
 }
 
 .product img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background: skyblue;
 }
 
@@ -24,10 +41,29 @@
   flex: 1;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .product-actions {
   display: flex;
   gap: 0.5rem;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  margin-top: 10px;
+}
+
+.payment-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary-text {
+  padding: 10px 0;
+}
+
+#payment-title {
+  padding-bottom: 10px;
 }

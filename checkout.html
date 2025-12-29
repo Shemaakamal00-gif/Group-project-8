@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/checkout.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
  
@@ -40,33 +43,63 @@
       <!-- Produkter -->
         <div class="products">
 
-          <div class="product">
+        <article class="product">
             <div class="product-img"></div>
-            <div class="product-info"></div>
-            <span>Pizza Margherita</span>
-            <div class="product-actions">
-              <button>-</button>
-              <span>1</span>
-              <button>+</button>
-            </div>
-          </div>
 
-          <div class="product">
-            <div class="product-img"></div>
-            <div class="product-info"></div>
+            <div class="product-info">
             <span>Pizza Margherita</span>
+
             <div class="product-actions">
               <button>-</button>
               <span>1</span>
               <button>+</button>
             </div>
           </div>
+        </article>
+
+        <article class="product">
+          <div class="product-img"></div>
+
+            <div class="product-info">
+            <span>Pasta Carbonara</span>
+
+            <div class="product-actions">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+          </div>
+        </article>
+
           <button class="add-product">Lägg till produkt</button>
         </div>
 
+        <!-- Allergier eller speciella önskemål -->
+        <section class="allergies">
+          <label for="allergy">Speciella önskemål / Allergier:</label>
+          <textarea id="allergy"></textarea>
+        </section>
+
+        <!-- Betalningsinformation -->
+        <section class="summary">
+          <h3>Beställningsöversikt</h3>
+          <p class="summary-text">Pizza Margherita 149 kr</p>
+          <p class="summary-text">Pasta Carbonara 159 kr</p>
+          <h4>Totalt 308 kr</h4>
+        </section>
+
+        <!-- Betalningsmetod -->
+        <section class="payment">
+          <h3 id="payment-title">Betalningsmetod</h3>
+          <div class="payment-buttons">
+            <button class="payment-button">Fortsätt till Swish</button>
+            <button class="payment-button">Fortsätt till kortbetalning</button>
+          </div>
+        </section>
 
     </section>
 
+        <!-- Sidokolumn för inloggning / medlemskap -->
         <aside class="checkout-side">
           <p>Logga in eller bli medlem för att spara din betalningsinformation och tjäna poäng</p>
           <button>Logga in / Skapa konto</button>
