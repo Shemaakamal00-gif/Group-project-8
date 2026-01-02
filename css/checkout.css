@@ -72,6 +72,10 @@ textarea {
   padding-bottom: 10px;
 }
 
+.logo {
+  height: 30px;
+}
+
 @media (min-width: 768px) {
   .checkout {
     max-width: 720px;
