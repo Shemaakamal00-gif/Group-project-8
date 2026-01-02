@@ -11,6 +11,9 @@ h3, h4 {
   font-weight: 600;
 }
 
+.add-product {
+  margin-top: 10px;
+}
 .checkout {
   padding: 1rem;
 }
