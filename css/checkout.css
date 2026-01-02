@@ -76,6 +76,11 @@ textarea {
   height: 30px;
 }
 
+.login-button{
+  margin-top: 1rem;
+  
+}
+
 @media (min-width: 768px) {
   .checkout {
     max-width: 720px;
