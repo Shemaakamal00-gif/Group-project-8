@@ -117,6 +117,13 @@ textarea {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 500px) {
+  .payment-buttons {
+    flex-direction: row;
+  }
+  
+  }
+
 @media (min-width: 768px) {
   .checkout {
     max-width: 720px;
