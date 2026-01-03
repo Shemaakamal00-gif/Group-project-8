@@ -11,6 +11,9 @@ h3, h4 {
   font-weight: 600;
 }
 
+.add-product {
+  margin-top: 10px;
+}
 .checkout {
   padding: 1rem;
 }
@@ -29,6 +32,7 @@ h3, h4 {
   display: flex;
   align-items: center;
   padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .product-img {
@@ -69,6 +73,15 @@ textarea {
   padding-bottom: 10px;
 }
 
+.logo {
+  height: 25px;
+}
+
+.login-button{
+  margin-top: 1rem;
+  
+}
+
 @media (min-width: 768px) {
   .checkout {
     max-width: 720px;
@@ -94,10 +107,19 @@ textarea {
     }
 
     .checkout-side {
-      display: block;
       flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
       background: whitesmoke;
       padding: 2rem;
+    }
+
+    .side-image{
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      object-fit: cover;
     }
 
     .product-img {
