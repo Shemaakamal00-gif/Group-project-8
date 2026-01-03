@@ -224,3 +224,24 @@ text-align: center;
 margin: 2rem;
 color: #00333B;
 }
+
+/* Tablet / Responsiv */
+@media (max-width: 1024px) {
+
+  .navbar-container {
+    padding: 16px 20px;
+  }
+
+  .nav-links {
+    gap: 40px;
+  }
+
+  #hero h1 {
+    font-size: 2.2rem;
+  }
+
+   .imgwithtext {
+    gap: 2rem;
+  }
+
+}
