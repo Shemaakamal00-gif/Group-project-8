@@ -32,6 +32,7 @@ h3, h4 {
   display: flex;
   align-items: center;
   padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .product-img {
