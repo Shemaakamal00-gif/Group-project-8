@@ -98,6 +98,20 @@ textarea {
   cursor: pointer;
 }
 
+.add:hover {
+  background-color: #cfcfcf;
+}
+
+.number{
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.product-text {
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+}
+
 
 @media (min-width: 768px) {
   .checkout {
