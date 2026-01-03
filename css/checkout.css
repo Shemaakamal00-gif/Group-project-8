@@ -81,6 +81,18 @@ textarea {
   
 }
 
+.btn-base {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-base:hover {
+  background-color: #cfcfcf;
+}
+
 @media (min-width: 768px) {
   .checkout {
     max-width: 720px;
@@ -95,6 +107,7 @@ textarea {
       width: 80px;
       height: 80px;
     }
+
   }
 
   @media (min-width: 1024px) {
