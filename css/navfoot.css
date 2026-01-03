@@ -8,7 +8,7 @@
 
 /* Navbar */
 .navbar {
-  background-color: #ffffff;
+  background-color: #7A2A3A;
   border-bottom: 1px solid #e0e0e0;
 }
 
@@ -32,7 +32,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #555;
+  color: white;
   font-size: 16px;
 }
 
@@ -65,7 +65,8 @@
 .btn-outline {
   padding: 10px 18px;
   background: transparent;
-  border: 1px solid #333;
+  border: 1px solid #fbf7f1;
+  color: #fbf7f1;
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
@@ -73,21 +74,26 @@
 
 .btn-primary {
   padding: 10px 18px;
-  background: #3f3f3f;
-  color: #fff;
+  background: #fbf7f1;
+  color: #7A2A3A;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
 }
 
+.btn-outline:hover {
+  background: #813141; 
+
+}
+
 .btn-primary:hover {
-  background: #2e2e2e;
+  background: rgb(255, 255, 236);
 }
 
 /* Footer */
 .footer {
-  background-color: #ffffff;
+  background-color: #1F3D2B;
   padding: 60px 32px;
   border-top: 1px solid #e0e0e0;
 }
@@ -104,13 +110,13 @@
 .footer-column h4 {
   font-size: 16px;
   margin-bottom: 12px;
-  color: #333;
+  color: white;
 }
 
 .footer-column p,
 .footer-column a {
   font-size: 14px;
-  color: #555;
+  color: white;
   line-height: 1.6;
 }
 
