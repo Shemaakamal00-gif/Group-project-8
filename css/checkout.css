@@ -6,13 +6,13 @@ h1, h2 {
   font-family: "Playfair Display", serif;
 }
 
-h3, h4 {
+h3 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
 }
 
 .add-product {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 .checkout {
   padding: 1rem;
@@ -31,15 +31,14 @@ h3, h4 {
 .product {
   display: flex;
   align-items: center;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .product-img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .product-info {
@@ -56,7 +55,7 @@ h3, h4 {
 textarea {
   width: 100%;
   min-height: 120px;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .payment-buttons {
@@ -66,11 +65,11 @@ textarea {
 }
 
 .summary-text {
-  padding: 10px 0;
+  padding: 0.5rem 0;
 }
 
 #payment-title {
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 
 .logo {
@@ -82,6 +81,18 @@ textarea {
   
 }
 
+.btn-base {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-base:hover {
+  background-color: #cfcfcf;
+}
+
 @media (min-width: 768px) {
   .checkout {
     max-width: 720px;
@@ -91,6 +102,12 @@ textarea {
   .payment-buttons {
     flex-direction: row;
   }
+
+  .product-img {
+      width: 80px;
+      height: 80px;
+    }
+
   }
 
   @media (min-width: 1024px) {
@@ -111,7 +128,7 @@ textarea {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
-      background: whitesmoke;
+      background: #F7ECE3;
       padding: 2rem;
     }
 
@@ -123,8 +140,8 @@ textarea {
     }
 
     .product-img {
-      width: 70px;
-      height: 70px;
+      width: 90px;
+      height: 90px;
     }
 
     .payment-buttons {
