@@ -1,78 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/kontaktaoss.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/kontaktaoss.css">
 </head>
 <body>
-   
+ 
 <!-- Navbar + knappar -->
 <header class="navbar">
-  <div class="navbar-container">
-    <div class="logo">Logo</div>
-    
-  <!-- Mobilmeny dropdown (checkbox + label) -->
-  <input type="checkbox" id="hamburger" class="hamburger">
-  <label for="menu-toggle" class="hamburger">&#9776;
- </label>
+ <div class="navbar-container">
+   <img src="imgs/logo.png" alt="Trattoria SNEL Logo" class="logo-img">
+  
+ <!-- Mobilmeny dropdown (checkbox + label) -->
+ <input type="checkbox" id="hamburger" class="hamburger">
+ <label for="menu-toggle" class="hamburger">&#9776;
+</label>
 
-    <nav class="nav-links" id="nav-links">
-      <a href="index.html">Hem</a>
-      <a href="menu.html">Meny</a>
-      <a href="omoss.html">Om Oss</a>
-      <a href="kontaktaoss.html">Kontakta Oss</a>
-    </nav>
 
-    <div class="nav-actions">
-      <a href="kontaktaoss.html"><button class="btn-outline">Boka bord</button></a>
-      <a href="checkout.html"><button class="btn-primary">Beställ nu</button></a>
-    </div>
+   <nav class="nav-links" id="nav-links">
+     <a href="index.html">Hem</a>
+     <a href="menu.html">Meny</a>
+     <a href="omoss.html">Om Oss</a>
+     <a href="kontaktaoss.html">Kontakta Oss</a>
+   </nav>
 
-  </div>
+
+   <div class="nav-actions">
+     <a href="kontaktaoss.html"><button class="btn-outline">Boka bord</button></a>
+     <a href="checkout.html"><button class="btn-primary">Beställ nu</button></a>
+   </div>
+
+
+ </div>
 </header>
 
 
+<section class="contact-section">
+ <h2>Kontakta Oss</h2>
+ <p class="form-lead">Boka bord, beställ för avhämtning eller ställ en fråga, vi återkommer så snart vi kan.
+ </p>
 
 
-
-
-
-
-
+ <!-- För att boka bord -->
+ <div class="contact-cards">
+    <form class="book-table">
+     <h3>Boka bord</h3>
+     <input type="text" placeholder="För-& Efternamn" required>
+     <input type="email" placeholder="E-post" required>
+     <input type="tel" placeholder="Telefonnummer">
+     <input type="date">
+     <input type="time">
+     <input type="number" min="1" max="20" placeholder="Antal personer" required>
+     <textarea rows="3" placeholder="Önskemål / Allergier"></textarea>
+     <button type="submit">Boka bord</button>
+    </form>
+   
+    <!-- För hämtmat -->
+    <form class="order-takeout">
+     <h3>Beställ mat</h3>
+     <input type="text" placeholder="För-& Efternamn" required>
+     <input type="email" placeholder="E-post" required>
+     <input type="tel" placeholder="Telefonnummer" required>
+     <input type="date">
+     <input type="time">
+     <textarea rows="4" placeholder="Vad vill du beställa? Ev Allergier"></textarea>
+     <button type="submit">Skicka beställning</button>
+    </form>
+ </div>
+ <p class="form-note">Vi återkommer så snart vi kan!</p>
+</section>
 
 <!-- Footer -->
 <footer class="footer">
-  <div class="footer-container">
+ <div class="footer-container">
 
-      <div class="footer-column">
-        <h4>Adress:</h4>
-        <p>
-          Sveavägen 46<br>
-          111 34 Stockholm
-        </p>
-      </div>
 
-      <div class="footer-column">
-        <h4>Länkar</h4>
-        <ul>
-          <li><a href="index.html">Hem</a></li>
-          <li><a href="menu.html">Meny</a></li>
-          <li><a href="omoss.html">Om oss</a></li>
-          <li><a href="kontaktaoss.html">Kontakta Oss</a></li>
-        </ul>
-      </div>
+     <div class="footer-column">
+       <h4>Adress:</h4>
+       <p>
+         Sveavägen 46<br>
+         111 34 Stockholm
+       </p>
+     </div>
 
-      <div class="footer-column">
-        <h4>Öppettider</h4>
-        <p>Måndag - Fredag: 10:00 - 22:00</p>
-        <p>Lördag: 11:00 - 22:00</p>
-        <p>Söndag: 11:00 - 22:00</p>
-      </div>
 
-    </div>
+     <div class="footer-column">
+       <h4>Länkar</h4>
+       <ul>
+         <li><a href="index.html">Hem</a></li>
+         <li><a href="menu.html">Meny</a></li>
+         <li><a href="omoss.html">Om oss</a></li>
+         <li><a href="kontaktaoss.html">Kontakta Oss</a></li>
+       </ul>
+     </div>
+
+
+     <div class="footer-column">
+       <h4>Öppettider</h4>
+       <p>Måndag - Fredag: 10:00 - 22:00</p>
+       <p>Lördag: 11:00 - 22:00</p>
+       <p>Söndag: 11:00 - 22:00</p>
+     </div>
+
+
+   </div>
 </footer>
- 
 </body>
 </html>
