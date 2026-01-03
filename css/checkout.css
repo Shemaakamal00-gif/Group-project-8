@@ -77,10 +77,13 @@ textarea {
   padding: 0.6rem 1.4rem;
   border-radius: 6px;
   cursor: pointer;
+  background-color: rgb(82, 82, 82);
+  color: white;
 }
 
 .btn-base:hover {
   background-color: #cfcfcf;
+  color: black;
 }
 
 .add {
@@ -91,10 +94,13 @@ textarea {
   cursor: pointer;
   max-height: 2rem;
   max-width: 2rem;
+  background-color: rgb(82, 82, 82);
+  color: white;
 }
 
 .add:hover {
   background-color: #cfcfcf;
+  color: black;
 }
 
 .number{
