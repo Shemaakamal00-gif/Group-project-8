@@ -212,85 +212,75 @@
   margin-bottom: 18px;
   max-width: 65ch;
 }
-
- .contact-cards{
+.contact-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
   display: flex;
-  gap: 24px;
-  align-items: flex-start;
- }
- 
- 
- .book-table,
- .order-takeout{
+  gap: 40px;
+}
+.contact-img {
   flex: 1;
-  background:var(--beige);
-  background: rgba(255,255,255,0.88);
-  border: 1px solid rgba(0,0,0,0.10);
-  border-radius: 18px;
-  padding: 24px;
-  box-shadow: var(--shadow);
+}
+.contact-img img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
+.contact-form-wrapper {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+.contact-form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
- }
- 
- 
- .book-table h3,
- .order-takeout h3{
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
-  margin-bottom: 4px;
- }
- 
- .book-table input,
- .book-table textarea,
- .order-takeout input,
- .order-takeout textarea{
-  width: 100%;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid rgba(0,0,0,0.18);
-  background: rgba(251,247,241,0.65);
-  font-size: 14px;
- }
- 
- .book-table textarea,
- .order-takeout textarea {
-  min-height: 120px;
-  resize: vertical;
- }
+  gap: 20px;
+}
+.contact-text p {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  color: #333;
+}
 
- .book-table input:focus,
- .book-table textarea:focus,
- .order-takeout input:focus,
- .order-takeout textarea:focus{
-  outline: none;
-  border-color: rgba(122,42,58,0.55);
-  box-shadow: 0 0 0 4px rgba(122,42,58,0.12);
-  background: #fff;
- }
- 
- .book-table button,
- .order-takeout button{
-  margin-top: 8px;
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
   padding: 12px;
-  border-radius: 12px;
-  border: none;
-  background: var(--italy-red);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: stolzl, sans-serif;
+  font-size: 14px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #782b5c;
   color: #fff;
-  font-weight: 800;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
- }
- 
- .form-note{
-  margin-top: 16px;
-  font-size: 13px;
-  color: rgba(0,0,0,0.60);
- }
- 
- /* Mobil */
- @media (max-width: 900px){
-  .contact-cards{
+  font-size: 16px;
+}
+
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .contact-section {
     flex-direction: column;
   }
- }
+  .contact-img img {
+    height: 260px;
+  }
+}
+
+  /*Responsive adjustments for Ipads */
+  @media (max-width: 1024px) {
+    .contact-img img {
+      height: 460px;
+    }
+  }

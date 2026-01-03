@@ -10,22 +10,57 @@
  
 <!-- Navbar + knappar -->
 <header class="navbar">
- <div class="navbar-container">
-   <img src="imgs/logo.png" alt="Trattoria SNEL Logo" class="logo-img">
-  
- <!-- Mobilmeny dropdown (checkbox + label) -->
- <input type="checkbox" id="hamburger" class="hamburger">
- <label for="menu-toggle" class="hamburger">&#9776;
-</label>
+  <div class="navbar-container">
+    <div class="logo">Logo</div>
+    
+  <!-- Mobilmeny dropdown (checkbox + label) -->
+  <input type="checkbox" id="hamburger" class="hamburger">
+  <label for="menu-toggle" class="hamburger">&#9776;
+ </label>
 
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Hem</a>
+      <a href="menu.html">Meny</a>
+      <a href="omoss.html">Om Oss</a>
+      <a href="kontaktaoss.html">Kontakta Oss</a>
+    </nav>
 
-   <nav class="nav-links" id="nav-links">
-     <a href="index.html">Hem</a>
-     <a href="menu.html">Meny</a>
-     <a href="omoss.html">Om Oss</a>
-     <a href="kontaktaoss.html">Kontakta Oss</a>
-   </nav>
+    <div class="nav-actions">
+      <a href="kontaktaoss.html"><button class="btn-outline">Boka bord</button></a>
+      <a href="checkout.html"><button class="btn-primary">Beställ nu</button></a>
+    </div>
 
+  </div>
+</header>
+
+<section class="contact-section">
+  <div class="contact-img">
+    <img src="imgs/contact-us.png" alt="Kontakta oss Bild">
+  </div>
+
+  <div class="contact-form-wrapper">
+    <div class="contact-text">
+      <p>Har du några frågor?</p>
+      <p>Fyll ut formuläret nedan så hör vi av oss till dig.</p>
+      <p>Vill du boka bord? Du kan också ringa oss på: 01-234 567 89</p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="För- & Efternamn" required> 
+      <input type="email" placeholder="E-postadress" required> 
+      <input type="tel" placeholder="Telefonnummer"> 
+
+      <select required>
+        <option value="" selected disabled>Vill du boka bord?</option>
+        <option value="ja">Ja</option>
+        <option value="nej">Nej</option>
+      </select>
+
+      <textarea placeholder="Ditt meddelande..." rows="5" ></textarea>
+      <button type="submit" class="btn-primary">Skicka in meddelande</button>
+    </form>
+  </div>
+</section>
 
    <div class="nav-actions">
      <a href="kontaktaoss.html"><button class="btn-outline">Boka bord</button></a>
