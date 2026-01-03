@@ -21,11 +21,6 @@
   justify-content: space-between;
 }
 
-.logo {
-  font-weight: 600;
-  font-size: 20px;
-}
-
 .nav-links {
   display: flex;
   gap: 70px;
@@ -169,6 +164,11 @@
     grid-template-columns: repeat(3, 1fr);
     padding:0%
   }
+}
+
+.logo-img {
+  height: 50px;
+ 
 }
 
 #hero {
