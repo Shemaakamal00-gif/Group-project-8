@@ -69,9 +69,6 @@ textarea {
   padding-bottom: 1rem;
 }
 
-.logo {
-  height: 25px;
-}
 
 .login-button{
   margin-top: 1rem;
@@ -148,7 +145,7 @@ textarea {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
-      background: #F7ECE3;
+      background: #FBF7F1;
       padding: 2rem;
     }
 
