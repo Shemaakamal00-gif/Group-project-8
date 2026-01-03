@@ -3,7 +3,6 @@
   --paper: #ffffff;       
   --ink: #1f1f1f;         
   --muted: rgba(0,0,0,.68);
-
   --italy-red: #7A2A3A;
   --italy-green: #1F3D2B;
   --beige: #FBF7F1;
@@ -202,36 +201,19 @@ body{
  }
 
  .contact-section h2 {
-  margin-top: 6px;
+  margin-bottom: 6px;
   font-family: "Playfair Display", serif;
   font-size: 33px;
  }
 
  .form-lead{
-  color: rgba(0,0,0,0.68);
+  color: var(--muted);
   line-height: 1.6;
   margin-bottom: 18px;
   max-width: 65ch;
 }
 
-.logo-img {
-  height: 50px;
-  border-radius: 10px;
-}
-
-.contact-section{
-  max-width: 1100px;
-  padding: 0 20px;
-  margin: 40px auto 80px;
-}
-.contact-section h2 {
-  margin-top: 24px;
-  gap: 24px;
-  font-family: "Playfair Display", serif;
-  font-size: 28px;
-}
 .contact-cards{
-  margin-top: 24px;
   display: flex;
   gap: 24px;
   align-items: flex-start;
@@ -239,41 +221,44 @@ body{
 
 .book-table, 
 .order-takeout{
-  background:var(--beige);
+  flex: 1;
+  background:rgba(255, 255, 255, 0.88);
   border: 1px solid rgba(0,0,0,0.10);
   border-radius: 18px;
   padding: 24px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.10);
-  flex: 1;
+  box-shadow:var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.book-table h3
+.book-table h3,
 .order-takeout h3{
   font-family: "Playfair Display", serif;
   font-size: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .book-table input,
-.book-table textarea
+.book-table textarea,
 .order-takeout input,
 .order-takeout textarea{
-  width: 100px;
-  margin-top: 8px;
-  padding: 20px;
-  border-radius: 8px;
-  border: none
-  background var(var(--italy-red));
-  font-weight: 800;
-  cursor: pointer;
-  color: #fff;
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  background: rgba(251, 247, 241, 0.9);
+  font-size: 14px;
+}
+
+.book-table textarea,
+.order-takeout textarea {
+  min-height: 120px;
+  resize: vertical;
 }
 
 .book-table input:focus,
-.book-table textarea:focus
+.book-table textarea:focus,
 .order-takeout input:focus,
 .order-takeout textarea:focus{
   outline: none;
@@ -282,20 +267,25 @@ body{
   background: #fff;
 }
 
-.book-table button
+.book-table button,
 .order-takeout button{
   margin-top: 8px;
   padding: 12px;
   border-radius: 12px;
   border: none;
-  background: var(--italy-red);
+  background:var(--italy-red);
   color: #fff;
   font-weight: 800;
   cursor: pointer;
 }
 
+.book-table button:hover,
+.order-takeout button:hover{
+  filter: brightness(0.80);
+}
+
 .form-note{
-  margin-top: 16px;
+  margin-top: 14px;
   font-size: 13px;
   color: rgba(0,0,0,0.60);
 }
@@ -303,7 +293,7 @@ body{
 /* Mobil */
 @media (max-width: 900px){
   .contact-cards{
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 }
 
