@@ -1,6 +1,7 @@
 /* Grundinställningar */
 body {
   background-color: #fbf7f1;
+   font-family: "Playfair Display", serif;
 }
 
 
@@ -13,6 +14,7 @@ body {
 
 .container h1 {
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container hr {
@@ -41,7 +43,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-style: italic;
+}
+
+.card-header h3 {
+  font-family: "Playfair Display", serif;
 }
 
 .add-btn {
@@ -62,6 +67,7 @@ body {
   color: #999;
   font-style: italic;
   gap: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .price {
