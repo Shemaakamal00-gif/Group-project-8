@@ -11,7 +11,7 @@
 <!-- Navbar + knappar -->
 <header class="navbar">
   <div class="navbar-container">
-    <div class="logo">Logo</div>
+    <img src="imgs/logo.png" alt="Trattoria SNEL Logo" class="logo-img">
     
   <!-- Mobilmeny dropdown (checkbox + label) -->
   <input type="checkbox" id="hamburger" class="hamburger">
@@ -34,9 +34,45 @@
 </header>
 
 <section class="contact-section">
+<<<<<<< Updated upstream
   <div class="contact-img">
     <img src="imgs/contact-us.png" alt="Kontakta oss Bild">
   </div>
+=======
+  <h2>Kontakta Oss</h2>
+  <p class="form-lead">Boka bord, beställ för avhämtning eller ställ en fråga, vi återkommer så snart vi kan.
+  </p>
+
+  <!-- För att boka bord -->
+  <div class="contact-cards">
+     <form class="book-table">
+      <h3>Boka bord</h3>
+      <input type="text" placeholder="För-& Efternamn" required>
+      <input type="email" placeholder="E-post" required>
+      <input type="tel" placeholder="Telefonnummer">
+      <input type="date">
+      <input type="time">
+      <input type="number" min="1" max="20" placeholder="Antal personer" required>
+      <textarea rows="3" placeholder="Önskemål / Allergier"></textarea>
+      <button type="submit">Boka bord</button>
+     </form>
+     
+     <!-- För hämtmat -->
+     <form class="order-takeout">
+      <h3>Beställ mat</h3>
+      <input type="text" placeholder="För-& Efternamn" required>
+      <input type="email" placeholder="E-post" required>
+      <input type="tel" placeholder="Telefonnummer" required>
+      <input type="date">
+      <input type="time">
+      <textarea rows="4" placeholder="Vad vill du beställa? Ev Allergier"></textarea>
+      <button type="submit">Skicka beställning</button>
+     </form>
+  </div>
+  <p class="form-note">Vi återkommer så snart vi kan!</p>
+</section>
+
+>>>>>>> Stashed changes
 
   <div class="contact-form-wrapper">
     <div class="contact-text">
