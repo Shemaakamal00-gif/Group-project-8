@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Navbar */
@@ -34,6 +34,7 @@
   text-decoration: none;
   color: white;
   font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav-links a:hover {
@@ -70,6 +71,7 @@
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn-primary {
@@ -80,6 +82,7 @@
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn-outline:hover {
@@ -111,6 +114,7 @@
   font-size: 16px;
   margin-bottom: 12px;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-column p,
@@ -118,6 +122,7 @@
   font-size: 14px;
   color: white;
   line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-column ul {
@@ -137,7 +142,7 @@
 }
 
 /* Responsiv */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .nav-links {
     display: none;
   }
@@ -156,12 +161,17 @@
     top: 80px;
     left: 0;
     width: 100%;
-    background: #ffffff;
+    background: #fbf7f1;
+    color: #000;
     flex-direction: column;
     gap: 24px;
     padding: 24px 32px;
     display: none;
     border-top: 1px solid #e0e0e0;
+  }
+
+  .nav-links a {
+    color: #000;
   }
 
   /* När checkbox är ikryssad → visa meny */
