@@ -32,6 +32,8 @@ h3 {
   height: 70px;
   object-fit: cover;
   margin-right: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 }
 
 .product-info {
@@ -49,6 +51,7 @@ textarea {
   width: 100%;
   min-height: 120px;
   margin-top: 1rem;
+  border-radius: 8px;
 }
 
 .payment-buttons {
@@ -77,13 +80,14 @@ textarea {
   padding: 0.6rem 1.4rem;
   border-radius: 6px;
   cursor: pointer;
-  background-color: rgb(61, 61, 61);
+  background-color: #7A2A3A;
   color: white;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 }
 
 .btn-base:hover {
-  background-color: #cfcfcf;
-  color: black;
+  filter: brightness(0.60);
 }
 
 .add {
@@ -94,13 +98,13 @@ textarea {
   cursor: pointer;
   max-height: 2rem;
   max-width: 2rem;
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(100, 100, 100);
   color: white;
+  border: 1px solid rgba(0, 0, 0, 0.10);
 }
 
 .add:hover {
-  background-color: #cfcfcf;
-  color: black;
+  filter: brightness(0.60);
 }
 
 .number{
@@ -167,6 +171,9 @@ textarea {
       gap: 1.5rem;
       background: #FBF7F1;
       padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
     }
 
     .side-image{
@@ -174,6 +181,7 @@ textarea {
       height: auto;
       margin-top: 1rem;
       object-fit: cover;
+      border-radius: 8px;
     }
 
     .product-img {
