@@ -1,3 +1,7 @@
+body {
+  background-color: #FBF7F1;
+}
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -169,7 +173,7 @@ textarea {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
-      background: #FBF7F1;
+      background: white;
       padding: 2rem;
       border-radius: 8px;
       border: 1px solid rgba(0, 0, 0, 0.10);
