@@ -10,6 +10,9 @@
 .navbar {
   background-color: #7A2A3A;
   border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .navbar-container {
@@ -168,6 +171,7 @@
     padding: 24px 32px;
     display: none;
     border-top: 1px solid #e0e0e0;
+    z-index: 10000;
   }
 
   .nav-links a {
