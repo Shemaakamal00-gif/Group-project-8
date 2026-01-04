@@ -8,10 +8,20 @@ body {
   background-image: url("../imgs/heroimg.png");
   background-size: cover;
   background-position: center;
-  
+  position: relative;
   display: flex;
   align-items: flex-end;
   padding: 3rem;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.083); 
 }
 
 #hero h1 {
@@ -42,6 +52,7 @@ color: #00333B;
 .imgwithtext img {
 width: 50%;
 border-radius: 8px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .imgwithtext .text {
@@ -54,9 +65,21 @@ flex-direction: row-reverse;
 }
 
 .lasttextbeforefooter h2 {
-text-align: center;
-margin: 2rem;
-color: #00333B;
+  text-align: center;
+  margin: 2rem;
+  background: linear-gradient(135deg, #00333B, #E65306);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #E65306, transparent);
+  margin: 3rem auto;
+  max-width: 80%;
 }
 
 text {
