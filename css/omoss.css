@@ -89,3 +89,46 @@ font-family: "playfair display", serif;
   }
 
 }
+
+/* Mobil / Responsiv */
+@media (max-width: 768px) {
+
+  #hero {
+    height: 50vh;
+    padding: 2rem;
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+    max-width: 100%;
+  }
+
+  .content1 {
+    padding: 2rem 1.5rem;
+  }
+
+  .imgwithtext {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .imgwithtext img {
+    width: 100%;
+  }
+
+    .imgwithtext,
+  .imgwithtext.reverse {
+    flex-direction: column;
+  }
+
+}
+
+  .imgwithtext .text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .lasttextbeforefooter h2 {
+    font-size: 1.2rem;
+    margin: 1.5rem;
+  }
